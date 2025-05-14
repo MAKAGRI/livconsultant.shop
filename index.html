@@ -1,129 +1,75 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LIV CONSULTANTS</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      color: #1d1d1d;
-    }
-
-    header {
-      background: url('https://images.unsplash.com/photo-1526378722484-c3a1518a1f98?fit=crop&w=1350&q=80') no-repeat center center/cover;
-      color: white;
-      padding: 100px 20px;
-      text-align: center;
-    }
-
-    header h1 {
-      font-size: 3em;
-      margin: 0;
-    }
-
-    nav {
-      background-color: #002f34;
-      color: white;
-      display: flex;
-      justify-content: center;
-      padding: 15px;
-      gap: 30px;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    section {
-      padding: 60px 20px;
-    }
-
-    .gray-bg {
-      background-color: #f2f2f2;
-    }
-
-    .image-section {
-      background: url('https://images.unsplash.com/photo-1549924231-f129b911e442?fit=crop&w=1400&q=80') no-repeat center center/cover;
-      color: white;
-    }
-
-    footer {
-      background-color: #002f34;
-      color: white;
-      text-align: center;
-      padding: 30px 20px;
-    }
-
-    h2 {
-      color: #0c4b5c;
-    }
-
-    .contact {
-      background-color: #e8f4f7;
-      padding: 40px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>LIV CONSULTANTS</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            background: linear-gradient(to right, #1f4037, #99f2c8);
+        }
+        header {
+            background-color: #0e2f2f;
+            padding: 2em;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        section {
+            padding: 3em;
+        }
+        section h2 {
+            font-size: 2em;
+            border-bottom: 2px solid #ffffff55;
+            padding-bottom: 0.5em;
+            margin-bottom: 1em;
+        }
+        .info {
+            margin: 1em 0;
+            padding: 1em;
+            background-color: #ffffff22;
+            border-radius: 8px;
+        }
+        .info strong {
+            display: inline-block;
+            width: 200px;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            background-color: #0e2f2f;
+            padding: 1em;
+            font-size: 0.9em;
+        }
+    </style>
 </head>
 <body>
 
-  <header>
+<header>
     <h1>LIV CONSULTANTS</h1>
-    <p>Conseils scientifiques et techniques en France</p>
-  </header>
+    <p>Expertise scientifique et technique en France</p>
+</header>
 
-  <nav>
-    <a href="#presentation">Présentation</a>
-    <a href="#services">Services</a>
-    <a href="#mission">Notre Mission</a>
-    <a href="#expertise">Expertise</a>
-    <a href="#temoignages">Témoignages</a>
-    <a href="#contact">Contact</a>
-  </nav>
+<section>
+    <h2>Informations sur l'entreprise</h2>
+    <div class="info"><strong>Numéro d'entreprise:</strong> 792748048</div>
+    <div class="info"><strong>Statut:</strong> Actif</div>
+    <div class="info"><strong>Date d'incorporation:</strong> 5 décembre 2024</div>
+    <div class="info"><strong>Type:</strong> SARLU</div>
+    <div class="info"><strong>Adresse:</strong> 6 ROUTE DU HAMEAU GOUBERT, BESNEVILLE, 50390, FRANCE</div>
+    <div class="info"><strong>Activités:</strong> Activités spécialisées scientifiques et techniques</div>
+    <div class="info"><strong>Directeur:</strong> LIVSCHITZ IVAN</div>
+    <div class="info"><strong>Email:</strong> contact@livconsultant.shop</div>
+    <div class="info"><strong>Téléphone:</strong> +33 1 47 00 18 08</div>
+</section>
 
-  <section id="presentation">
-    <h2>À propos de nous</h2>
-    <p>LIV Consultants est une entreprise basée en Normandie spécialisée dans les services scientifiques, techniques et professionnels pour les entreprises innovantes.</p>
-  </section>
-
-  <section id="services" class="gray-bg">
-    <h2>Nos Services</h2>
-    <ul>
-      <li>Études scientifiques avancées</li>
-      <li>Accompagnement technique R&D</li>
-      <li>Analyse stratégique de données</li>
-      <li>Consultation en innovation</li>
-    </ul>
-  </section>
-
-  <section id="mission" class="image-section">
-    <h2>Notre Mission</h2>
-    <p>Accompagner les entreprises dans leurs projets à haute valeur ajoutée en mettant à disposition notre expertise multidisciplinaire.</p>
-  </section>
-
-  <section id="expertise">
-    <h2>Notre Expertise</h2>
-    <p>Spécialistes en science appliquée, techniques avancées et accompagnement de projets innovants, nous collaborons avec des experts reconnus dans toute la France.</p>
-  </section>
-
-  <section id="temoignages" class="gray-bg">
-    <h2>Témoignages</h2>
-    <p>"LIV CONSULTANTS nous a permis d’atteindre des objectifs ambitieux dans le domaine scientifique." - Client Satisfait</p>
-  </section>
-
-  <section id="contact" class="contact">
-    <h2>Contact</h2>
-    <p><strong>Email :</strong> contact@livconsultant.shop</p>
-    <p><strong>Téléphone :</strong> +33 1 47 00 18 08</p>
-    <p><strong>Adresse :</strong> Besneville, Normandie, France</p>
-  </section>
-
-  <footer>
-    &copy; 2025 LIV CONSULTANTS - Tous droits réservés
-  </footer>
+<footer>
+    &copy; 2025 LIV CONSULTANTS - Tous droits réservés.
+</footer>
 
 </body>
 </html>
